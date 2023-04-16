@@ -1,3 +1,6 @@
 .direnv
-/target
+.terraform
 result
+rusty-tags.vi
+target
+volume

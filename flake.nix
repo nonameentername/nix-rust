@@ -38,7 +38,15 @@
           buildInputs =
             [ (rustVersion.override { extensions = [ "rust-src" ]; }) ];
           packages = with pkgs; [
+            aws-vault
+            awscli
+            docker-compose
+            kubectl
+            localstack
+            minikube
             overmind
+            terraform
+            terragrunt
           ];
         };
       in
